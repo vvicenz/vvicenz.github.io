@@ -1,0 +1,6 @@
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+astropy>=7.0  # teste terrestre (efeméride ERFA)
+global-land-mask>=1.0  # teste terrestre da grade
+pytest

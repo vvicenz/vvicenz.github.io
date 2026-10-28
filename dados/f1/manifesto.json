@@ -1,0 +1,219 @@
+{
+ "fase": "F1 · Astros e globo",
+ "plano": "docs/v5-0-plano.md (rev. 1)",
+ "relatorio": "docs/f1-relatorio.md",
+ "semente": 0,
+ "semente_status": "provisória (a semente do planeta é escolhida na F2/F7)",
+ "codigo_base_commit": "7f60906ac27fe4f295ddab003636fb0247327dd9",
+ "ambiente": {
+  "python": "3.13.17",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "astropy": "8.0.2"
+ },
+ "regenerar": [
+  "python3 scripts/terra_a_insolacao.py",
+  "python3 scripts/terra_b_lua.py",
+  "python3 scripts/terra_c_grade.py",
+  "python3 scripts/planeta_a_lua_mare.py",
+  "python3 scripts/planeta_b_insolacao_calendario.py",
+  "python3 scripts/f1_graficos.py",
+  "python3 scripts/f1_manifesto.py"
+ ],
+ "parametros_planeta": {
+  "ano_tropico_d": 360.0,
+  "excentricidade": 0.017,
+  "obliquidade_graus": 23.5,
+  "lon_sol_perielio_graus": 282.94,
+  "lunacao_d": 30.0,
+  "s0": 1361.0
+ },
+ "derivados_planeta": {
+  "ano_sideral_d": 360.01364031956024,
+  "mes_sideral_d": 27.692388401434936,
+  "semieixo_m": 148162923247.16263,
+  "semieixo_ua": 0.9904079687356314,
+  "luminosidade_lsol": 0.9807879832768749,
+  "teff_k": 5744.075061397706,
+  "a_lua_kepler_m": 388219751.8542098,
+  "precessao_periodo_anos": 26393.34355247645,
+  "precessao_arcsec_ano": 49.10328990426065,
+  "dia_sideral_s": 86160.6648199446,
+  "omega_rot": 7.29240578668927e-05,
+  "n_sol": 2.0199804680144856e-07,
+  "n_lua": 2.6260664523491283e-06
+ },
+ "grade_nivel1": {
+  "frequencia": 300,
+  "n_celulas": 900002,
+  "sha256": "25be7166a1cbd155401fd476ab9298ba255fa6af6cfb4fbd05cd24c40c47b51b",
+  "nota": "não versionada: regenerar com mundo.grade.Grade(300) (~16 s); o hash confere"
+ },
+ "arquivos": [
+  {
+   "caminho": "dados/f1/planeta/calendario.csv",
+   "bytes": 55822,
+   "sha256": "465a955058bec112a754d16f441c5b52d7e23b87e9ffe35e638c79ed71c375d4"
+  },
+  {
+   "caminho": "dados/f1/planeta/dias_noites_polares.csv",
+   "bytes": 2889,
+   "sha256": "445f6d2ad5a1d8bcd329121ee035f560caeec3bcad3e34d9b3ab67cbad09e267"
+  },
+  {
+   "caminho": "dados/f1/planeta/duracao_dia_com_crepusculo_civil_h.csv",
+   "bytes": 450278,
+   "sha256": "fdeb325b1ee9f2d0f54d34936ec35526e0f5a3648ed3f9060d56453833a4da0e"
+  },
+  {
+   "caminho": "dados/f1/planeta/duracao_dia_h.csv",
+   "bytes": 445610,
+   "sha256": "153c5236e147a251cd84d39e7a4bfcdc812e65cacf040d42796cc11b60cb11d4"
+  },
+  {
+   "caminho": "dados/f1/planeta/eclipses_100anos.csv",
+   "bytes": 23333,
+   "sha256": "cf09304c4c529e4258e8aa1dc16c4b1820c6f71a92c7a40d2fdc66426c2e2339"
+  },
+  {
+   "caminho": "dados/f1/planeta/fases_lua_100anos.csv",
+   "bytes": 171454,
+   "sha256": "8c46c14e78ece2cd98b15d41e19f2a6058403e58f602feb82f883fecd62e5885"
+  },
+  {
+   "caminho": "dados/f1/planeta/insolacao_diaria_wm2.csv",
+   "bytes": 375356,
+   "sha256": "f7327bffe53274aa0a1994bfb0430751e5b29b5c4dd9e42d1ae366c3f4e8fec1"
+  },
+  {
+   "caminho": "dados/f1/planeta/insolacao_horaria_wm2.csv",
+   "bytes": 8999,
+   "sha256": "f67a4007b8821267880e3ebe4c253a6998d94777a15e6a58f6f1b3a7e652c3c6"
+  },
+  {
+   "caminho": "dados/f1/planeta/mare_constituintes.csv",
+   "bytes": 308,
+   "sha256": "dfd24340e27b9db69d4a7abe98b82eabbc6b4082e77caeda87c881bfdc79f16e"
+  },
+  {
+   "caminho": "dados/f1/planeta/resumo_insolacao_calendario.json",
+   "bytes": 1738,
+   "sha256": "581da8e69dbb233b6124095aba48aac6d0959871276c5ae9c83efa7a2d6833f2"
+  },
+  {
+   "caminho": "dados/f1/planeta/resumo_lua_mare.json",
+   "bytes": 4975,
+   "sha256": "2f10dccb6e89f9cb5e3378e22f9d8b644cc0a336805799b513a51704c4d3c260"
+  },
+  {
+   "caminho": "dados/f1/terra/eot_comparacao.csv",
+   "bytes": 1619,
+   "sha256": "89d53b3c878e8352ae01fcdc7dde7be2112c54ea3803b28a463d31c14b11ec24"
+  },
+  {
+   "caminho": "dados/f1/terra/insolacao_comparacao.csv",
+   "bytes": 220054,
+   "sha256": "4270142dfd922017873aba8834cf6316edb948b4ba2ca5f712790cbbb6679df3"
+  },
+  {
+   "caminho": "dados/f1/terra/resumo_grade.json",
+   "bytes": 1851,
+   "sha256": "ad29bb67deace38c64bd16dd0584178bda73fceab82cdd49308d498397e38bd8"
+  },
+  {
+   "caminho": "dados/f1/terra/resumo_insolacao.json",
+   "bytes": 4252,
+   "sha256": "5f73d7d174abe05dc969d6c3c7a62a5b4241fb490390bf84d6f18a6e2f946690"
+  },
+  {
+   "caminho": "dados/f1/terra/resumo_lua_mare.json",
+   "bytes": 4003,
+   "sha256": "ff7d17b8d377cc1978b7ca4c6dd376ce041918ca4360d318eabfabe05d8548a6"
+  },
+  {
+   "caminho": "out/f1/f1_00_teste_terrestre.png",
+   "bytes": 167790,
+   "sha256": "1f652cb00872a1dcec7a5ac039c7d523e3e8c44b5f89eda287fbe25de719465e"
+  },
+  {
+   "caminho": "out/f1/f1_01_insolacao_latitude_dia.png",
+   "bytes": 226510,
+   "sha256": "91c47cfc5e1c22f8efe71c7d15168b3fa83ef7b1d25bc6447309ebfaaf39dffe"
+  },
+  {
+   "caminho": "out/f1/f1_02_insolacao_diferenca_terra.png",
+   "bytes": 96231,
+   "sha256": "665461683dc9c60f777e0f01e0bb1eb553dbc0b5a4720d5bae1660809accf487"
+  },
+  {
+   "caminho": "out/f1/f1_03_insolacao_anual_latitude.png",
+   "bytes": 115665,
+   "sha256": "ec5ee030dab1b2011ec0a12848a08e21da40dd3ed51f93059965ce0ea615ff1a"
+  },
+  {
+   "caminho": "out/f1/f1_04_duracao_do_dia.png",
+   "bytes": 158248,
+   "sha256": "54722359d45d32f19f37caa691164ada9020e96bb563651a9d4fb58bc883bd1f"
+  },
+  {
+   "caminho": "out/f1/f1_05_dias_noites_polares.png",
+   "bytes": 134581,
+   "sha256": "0a09e61b5490e909da930ddddaae3ff17d1c07e1dccdadd8361ee8ce8cbe0b57"
+  },
+  {
+   "caminho": "out/f1/f1_06_insolacao_horaria.png",
+   "bytes": 189981,
+   "sha256": "ae1e721dbb8ec0fb21df8e73e8f7789ff59c2e4026686d767eb43cb55d532ef9"
+  },
+  {
+   "caminho": "out/f1/f1_07_equacao_do_tempo.png",
+   "bytes": 120968,
+   "sha256": "f5d1869a6806e87f297638b27a52649e38cf1e670dcd49c1eb3f880da86d7612"
+  },
+  {
+   "caminho": "out/f1/f1_08_calendario.png",
+   "bytes": 104794,
+   "sha256": "d84046691523b61568958cc7426bf0ae53b11dadac90039810a0cebcc9549f0f"
+  },
+  {
+   "caminho": "out/f1/f1_09_lua_fase_e_calendario.png",
+   "bytes": 114975,
+   "sha256": "32c788c1134538b03a80fe0ea7ff081341653d617a837e86b99071c3594a2696"
+  },
+  {
+   "caminho": "out/f1/f1_10_lua_declinacao.png",
+   "bytes": 95155,
+   "sha256": "99dc17be85691f18cce91f19644bbaff2c4a45c41bd15ba5e73f6e77eb91405c"
+  },
+  {
+   "caminho": "out/f1/f1_10b_lua_distancia.png",
+   "bytes": 153528,
+   "sha256": "52b6970a60100728547d89437c4d2e8f764d827fdb66536c2bbc7d0cf69ec67f"
+  },
+  {
+   "caminho": "out/f1/f1_11_eclipses_100anos.png",
+   "bytes": 108997,
+   "sha256": "593d563cc1f8dceea8256f34474d68c9ed86083297200dc9c9592ddf7858cb41"
+  },
+  {
+   "caminho": "out/f1/f1_12_eclipses_tipos.png",
+   "bytes": 50705,
+   "sha256": "9f99865e4d6c8c72a43feffe1858157f975a6c3a503ef85ed926c8613e301ff0"
+  },
+  {
+   "caminho": "out/f1/f1_13_mare_sizigia_quadratura.png",
+   "bytes": 266421,
+   "sha256": "cbb9444a1860b24c0d332329779794b6bb1fe99f31f3e0b608e5f0dcef3be51c"
+  },
+  {
+   "caminho": "out/f1/f1_14_mare_constituintes.png",
+   "bytes": 55346,
+   "sha256": "d76f4e7d09b33c360b03a45ae2ee5e1ca6ed8f4fcc3b0a27f2d143240807e349"
+  },
+  {
+   "caminho": "out/f1/f1_15_grade_geodesica.png",
+   "bytes": 357099,
+   "sha256": "ba2d1721fb7c40264a6245908d418c026e8433f2d1c2f3d23f323e54f8346c97"
+  }
+ ]
+}

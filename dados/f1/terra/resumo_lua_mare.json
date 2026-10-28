@@ -1,0 +1,213 @@
+{
+ "lua_erro_angular_5anos_medio_arcsec": 9.611291100501743,
+ "lua_erro_angular_5anos_max_arcsec": 26.11064602635685,
+ "mes_sinodico_d": 29.530525859866838,
+ "mes_sinodico_real_d": 29.530589,
+ "periodo_nodo_anos": -18.608164715067016,
+ "periodo_nodo_real_anos": -18.613,
+ "lua_e_media": 0.05561400805166322,
+ "lua_i_media_graus": 5.154400270284801,
+ "periodo_perigeu_anos": 8.84694063948167,
+ "periodo_perigeu_real_anos": 8.849,
+ "eclipses_reais": 22,
+ "eclipses_reproduzidos": 22,
+ "eclipses_modelo": 22,
+ "eclipses_modelo_lista": [
+  {
+   "data_utc": "2024-03-25 07:13",
+   "corpo": "lua",
+   "tipo": "penumbral",
+   "gama": 1.0615,
+   "grandeza": 0.9837
+  },
+  {
+   "data_utc": "2024-04-08 18:17",
+   "corpo": "sol",
+   "tipo": "total",
+   "gama": 0.3439,
+   "grandeza": 2.2679
+  },
+  {
+   "data_utc": "2024-09-18 02:44",
+   "corpo": "lua",
+   "tipo": "parcial",
+   "gama": 0.9801,
+   "grandeza": 0.0919
+  },
+  {
+   "data_utc": "2024-10-02 18:46",
+   "corpo": "sol",
+   "tipo": "anular",
+   "gama": 0.3514,
+   "grandeza": 2.0505
+  },
+  {
+   "data_utc": "2025-03-14 06:59",
+   "corpo": "lua",
+   "tipo": "total",
+   "gama": 0.349,
+   "grandeza": 1.1839
+  },
+  {
+   "data_utc": "2025-03-29 10:48",
+   "corpo": "sol",
+   "tipo": "parcial",
+   "gama": 1.0415,
+   "grandeza": 0.9412
+  },
+  {
+   "data_utc": "2025-09-07 18:11",
+   "corpo": "lua",
+   "tipo": "total",
+   "gama": 0.2768,
+   "grandeza": 1.3663
+  },
+  {
+   "data_utc": "2025-09-21 19:42",
+   "corpo": "sol",
+   "tipo": "parcial",
+   "gama": 1.0648,
+   "grandeza": 0.8604
+  },
+  {
+   "data_utc": "2026-02-17 12:12",
+   "corpo": "sol",
+   "tipo": "anular",
+   "gama": 0.9763,
+   "grandeza": 1.0218
+  },
+  {
+   "data_utc": "2026-03-03 11:34",
+   "corpo": "lua",
+   "tipo": "total",
+   "gama": 0.3758,
+   "grandeza": 1.1591
+  },
+  {
+   "data_utc": "2026-08-12 17:46",
+   "corpo": "sol",
+   "tipo": "total",
+   "gama": 0.9007,
+   "grandeza": 1.2032
+  },
+  {
+   "data_utc": "2026-08-28 04:13",
+   "corpo": "lua",
+   "tipo": "parcial",
+   "gama": 0.4946,
+   "grandeza": 0.9405
+  },
+  {
+   "data_utc": "2027-02-06 16:00",
+   "corpo": "sol",
+   "tipo": "anular",
+   "gama": 0.2977,
+   "grandeza": 2.1323
+  },
+  {
+   "data_utc": "2027-02-20 23:13",
+   "corpo": "lua",
+   "tipo": "penumbral",
+   "gama": 1.0468,
+   "grandeza": 0.9568
+  },
+  {
+   "data_utc": "2027-07-18 16:03",
+   "corpo": "lua",
+   "tipo": "penumbral",
+   "gama": 1.5798,
+   "grandeza": 0.0238
+  },
+  {
+   "data_utc": "2027-08-02 10:06",
+   "corpo": "sol",
+   "tipo": "total",
+   "gama": 0.1446,
+   "grandeza": 2.6904
+  },
+  {
+   "data_utc": "2027-08-17 07:14",
+   "corpo": "lua",
+   "tipo": "penumbral",
+   "gama": 1.2782,
+   "grandeza": 0.5777
+  },
+  {
+   "data_utc": "2028-01-12 04:13",
+   "corpo": "lua",
+   "tipo": "parcial",
+   "gama": 0.985,
+   "grandeza": 0.0687
+  },
+  {
+   "data_utc": "2028-01-26 15:08",
+   "corpo": "sol",
+   "tipo": "anular",
+   "gama": 0.3876,
+   "grandeza": 1.9711
+  },
+  {
+   "data_utc": "2028-07-06 18:20",
+   "corpo": "lua",
+   "tipo": "parcial",
+   "gama": 0.7938,
+   "grandeza": 0.3905
+  },
+  {
+   "data_utc": "2028-07-22 02:56",
+   "corpo": "sol",
+   "tipo": "total",
+   "gama": 0.6033,
+   "grandeza": 1.7773
+  },
+  {
+   "data_utc": "2028-12-31 16:52",
+   "corpo": "lua",
+   "tipo": "total",
+   "gama": 0.3296,
+   "grandeza": 1.2465
+  }
+ ],
+ "mare": {
+  "M2": {
+   "modelo_m": 0.24272,
+   "referencia_m": 0.242334,
+   "razao": 1.0016
+  },
+  "S2": {
+   "modelo_m": 0.11306,
+   "referencia_m": 0.112841,
+   "razao": 1.0019
+  },
+  "N2": {
+   "modelo_m": 0.04653,
+   "referencia_m": 0.046398,
+   "razao": 1.0029
+  },
+  "K2": {
+   "modelo_m": 0.03092,
+   "referencia_m": 0.030704,
+   "razao": 1.0069
+  },
+  "K1": {
+   "modelo_m": 0.14205,
+   "referencia_m": 0.141565,
+   "razao": 1.0035
+  },
+  "O1": {
+   "modelo_m": 0.10107,
+   "referencia_m": 0.100514,
+   "razao": 1.0056
+  },
+  "P1": {
+   "modelo_m": 0.04694,
+   "referencia_m": 0.046843,
+   "razao": 1.002
+  },
+  "Q1": {
+   "modelo_m": 0.0194,
+   "referencia_m": 0.019256,
+   "razao": 1.0076
+  }
+ }
+}

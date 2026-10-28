@@ -1,0 +1,61 @@
+{
+ "75": {
+  "n_celulas": 56252,
+  "segundos": 0.6,
+  "soma_area_sobre_4pi": 1.0,
+  "area_media_km2": 9067.490434291907,
+  "area_min_km2": 8032.866808076802,
+  "area_max_km2": 9960.1213653012,
+  "area_cv": 0.04992808539043942,
+  "espacamento_medio_km": 102.63852837032859,
+  "espacamento_min_km": 94.04859308068512,
+  "espacamento_max_km": 110.74512388958274,
+  "pentagonos": 12,
+  "hexagonos": 56240,
+  "outros": 0,
+  "sha256": "9eb6f6efc4df6a1bf2c06c386bb746bac5fb4ee881d86c8d1b7518335fda1f89"
+ },
+ "150": {
+  "n_celulas": 225002,
+  "segundos": 3.7,
+  "soma_area_sobre_4pi": 1.0,
+  "area_media_km2": 2266.933057971877,
+  "area_min_km2": 2008.2343680023766,
+  "area_max_km2": 2490.25769599189,
+  "area_cv": 0.050000027112998106,
+  "espacamento_medio_km": 51.31985848320144,
+  "espacamento_min_km": 47.02429654013275,
+  "espacamento_max_km": 55.374196476952946,
+  "pentagonos": 12,
+  "hexagonos": 224990,
+  "outros": 0,
+  "sha256": "5f2a6dbcddb8864950fd2d44816f2dbc67ad38e8ba58b14691eec3979266e138"
+ },
+ "300": {
+  "n_celulas": 900002,
+  "segundos": 15.8,
+  "soma_area_sobre_4pi": 1.0,
+  "area_media_km2": 566.7370427063365,
+  "area_min_km2": 502.05969614178184,
+  "area_max_km2": 622.5786358491778,
+  "area_cv": 0.050018545996200384,
+  "espacamento_medio_km": 25.66000352837248,
+  "espacamento_min_km": 23.51214826953697,
+  "espacamento_max_km": 27.68728145832513,
+  "pentagonos": 12,
+  "hexagonos": 899990,
+  "outros": 0,
+  "sha256": "25be7166a1cbd155401fd476ab9298ba255fa6af6cfb4fbd05cd24c40c47b51b"
+ },
+ "quadratura": {
+  "P2(sen lat)": -4.5907354369694324e-17,
+  "cos^3 lat cos 3 lon": -3.034184866920541e-17,
+  "Y(20,7) aprox": -6.751422729235214e-17
+ },
+ "fracao_terra": {
+  "grade_por_area": 0.28903408501193645,
+  "grade_por_contagem": 0.2897949115668632,
+  "mascara_cos_lat": 0.28904962481059765,
+  "latlon_sem_peso": 0.3317341049382716
+ }
+}

@@ -1,0 +1,221 @@
+{
+ "semente": 0,
+ "e_osculador_inicial": 0.04606148534501328,
+ "i_osculador_inicial_graus": 5.221099736084774,
+ "nodo_inicial_graus": 73.24010473830182,
+ "perigeu_inicial_graus": 201.17685364140726,
+ "a_lua_osculador_inicial_km": 390748.00499675085,
+ "lua_distancia_media_km": 388462.4928824807,
+ "lua_perigeu_min_km": 359159.8524864747,
+ "lua_apogeu_max_km": 410423.5611816412,
+ "lua_e_media": 0.055842439696651834,
+ "lua_i_media_graus": 5.155328992947785,
+ "mes_sinodico_medio_d": 30.00000023616805,
+ "mes_sideral_d": 27.692388401434936,
+ "mes_draconitico_d": 27.575347414488995,
+ "mes_anomalistico_d": 27.947564037682625,
+ "ano_de_eclipses_d": 341.1871982724986,
+ "periodo_nodo_anos": -18.123452372269092,
+ "periodo_perigeu_anos": 8.4248595027206,
+ "lua_nova_desvio_h": [
+  -14.321555131813511,
+  14.344478726983652,
+  6.564983921758733
+ ],
+ "lua_cheia_desvio_h": [
+  -14.345192630178644,
+  14.427977586630732
+ ],
+ "declinacao_lua_max_mensal_graus": [
+  18.205248702064498,
+  28.798848200464345
+ ],
+ "diametro_lua_arcmin": [
+  29.10534210548727,
+  30.7994209734772,
+  33.25964465453749
+ ],
+ "diametro_sol_arcmin": [
+  31.743486103066633,
+  32.28402530829289,
+  32.84194537666865
+ ],
+ "eclipses": {
+  "por_seculo": {
+   "lua:parcial": 87,
+   "sol:anular": 94,
+   "sol:parcial": 78,
+   "lua:total": 66,
+   "lua:penumbral": 79,
+   "sol:total": 48,
+   "sol:híbrido": 10
+  },
+  "sol_por_ano": 2.3,
+  "lua_por_ano": 2.32,
+  "eclipses_ano_min": 4,
+  "eclipses_ano_max": 6
+ },
+ "eclipses_outras_sementes": {
+  "1": {
+   "por_seculo": {
+    "sol:anular": 92,
+    "lua:parcial": 81,
+    "lua:penumbral": 88,
+    "lua:total": 66,
+    "sol:parcial": 75,
+    "sol:total": 47,
+    "sol:híbrido": 11
+   },
+   "sol_por_ano": 2.25,
+   "lua_por_ano": 2.35,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 6
+  },
+  "2": {
+   "por_seculo": {
+    "lua:parcial": 83,
+    "sol:anular": 91,
+    "sol:total": 47,
+    "lua:penumbral": 88,
+    "lua:total": 65,
+    "sol:parcial": 83,
+    "sol:híbrido": 10
+   },
+   "sol_por_ano": 2.31,
+   "lua_por_ano": 2.36,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 7
+  },
+  "3": {
+   "por_seculo": {
+    "sol:anular": 90,
+    "sol:total": 46,
+    "lua:parcial": 84,
+    "lua:penumbral": 82,
+    "sol:parcial": 77,
+    "lua:total": 66,
+    "sol:híbrido": 13
+   },
+   "sol_por_ano": 2.26,
+   "lua_por_ano": 2.32,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 6
+  },
+  "4": {
+   "por_seculo": {
+    "sol:parcial": 76,
+    "lua:total": 67,
+    "sol:total": 49,
+    "lua:penumbral": 84,
+    "lua:parcial": 81,
+    "sol:anular": 93,
+    "sol:híbrido": 10
+   },
+   "sol_por_ano": 2.28,
+   "lua_por_ano": 2.32,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 6
+  },
+  "5": {
+   "por_seculo": {
+    "lua:parcial": 76,
+    "lua:penumbral": 88,
+    "sol:anular": 90,
+    "sol:híbrido": 12,
+    "sol:parcial": 86,
+    "lua:total": 69,
+    "sol:total": 45
+   },
+   "sol_por_ano": 2.33,
+   "lua_por_ano": 2.33,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 6
+  },
+  "6": {
+   "por_seculo": {
+    "sol:anular": 89,
+    "lua:parcial": 83,
+    "sol:híbrido": 14,
+    "lua:penumbral": 81,
+    "sol:parcial": 77,
+    "lua:total": 67,
+    "sol:total": 48
+   },
+   "sol_por_ano": 2.28,
+   "lua_por_ano": 2.31,
+   "eclipses_ano_min": 4,
+   "eclipses_ano_max": 6
+  }
+ },
+ "mare_constituintes": {
+  "M2": {
+   "periodo_h": 12.413793103448278,
+   "amplitude_m": 0.23585482652148326,
+   "latitude_de_referencia": 0.0
+  },
+  "S2": {
+   "periodo_h": 12.0,
+   "amplitude_m": 0.1163217504167511,
+   "latitude_de_referencia": 0.0
+  },
+  "N2": {
+   "periodo_h": 12.647874471985919,
+   "amplitude_m": 0.045302019885694156,
+   "latitude_de_referencia": 0.0
+  },
+  "K2": {
+   "periodo_h": 11.966759002770084,
+   "amplitude_m": 0.03106817245753455,
+   "latitude_de_referencia": 0.0
+  },
+  "K1": {
+   "periodo_h": 23.93351800554017,
+   "amplitude_m": 0.1416480306834553,
+   "latitude_de_referencia": 45.0
+  },
+  "O1": {
+   "periodo_h": 25.791044776119403,
+   "amplitude_m": 0.09931796029901505,
+   "latitude_de_referencia": 45.0
+  },
+  "P1": {
+   "periodo_h": 24.06685236768803,
+   "amplitude_m": 0.04841749449905685,
+   "latitude_de_referencia": 45.0
+  },
+  "Q1": {
+   "periodo_h": 26.822407646234886,
+   "amplitude_m": 0.019074566431655414,
+   "latitude_de_referencia": 45.0
+  },
+  "Mf": {
+   "periodo_h": 332.3076923076923,
+   "amplitude_m": 0.010448002407677829,
+   "latitude_de_referencia": 45.0
+  },
+  "Mm": {
+   "periodo_h": 670.741536904383,
+   "amplitude_m": 0.00534826304977673,
+   "latitude_de_referencia": 45.0
+  },
+  "Ssa": {
+   "periodo_h": 4320.0,
+   "amplitude_m": 0.0050058216849497615,
+   "latitude_de_referencia": 45.0
+  }
+ },
+ "mare_equador_amplitude_sizigia_m": [
+  0.2735953301625955,
+  0.36513514714194817,
+  0.4582045913241987
+ ],
+ "mare_equador_amplitude_quadratura_m": [
+  0.05065997584907114,
+  0.12799505491577556,
+  0.19478187994577045
+ ],
+ "lunacao_ajuste_residuo": {
+  "S_menos_30_s": 0.020474340226428467,
+  "fase_h": 0.00015266060449903307
+ }
+}
